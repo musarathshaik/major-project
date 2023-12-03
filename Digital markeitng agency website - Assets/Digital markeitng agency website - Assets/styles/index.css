@@ -1,0 +1,561 @@
+@font-face {
+    font-family: "averta";
+    src: url("../fonts/AvertaDemo-Regular.otf");
+}
+
+*{
+    font-family: averta;
+}
+
+.hero-section{
+    height: 100vh;
+}
+
+/* NAvbar*/
+
+.navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color:#a5410f;
+    font-weight:700;
+}
+.navbar .navbar-nav .nav-item{
+    margin-left: 24px;
+}
+.navbar .navbar-nav .nav-item:hover,
+.nav-item.active{
+    color:#a5410f;
+    font-weight:700;
+}
+
+.hero-section{
+    align-items: center;
+    height:100%;
+    
+}
+.hero-section h1{
+    font-weight:bold;
+    font-size:65px;
+    color:#506269;
+}
+.hero-section p{
+    font-size:24px;
+    color:#848484;
+    line-height:50px;
+}
+.hero-section button{
+    height:65px;
+    border-radius:0px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    background-color: #a5410f;
+}
+.hero-section button:hover{
+    background-color:white;
+    border:2px solid #a5410f;
+    color:#a5410f;
+}
+.hero-section img{
+    width:500px;
+    
+}
+
+#b{
+    background-color:#a5410f;
+    font-weight: 800;
+    color:black;
+    font-weight:bolder;
+    font-size: 60px;
+    margin-right:350px;
+    height:20%;
+    width:77%;
+    text-align: center;
+    box-shadow: 50px 40px 20px rgb(black,yellow, orange);
+    border-radius: 35px;
+    
+}
+#b img{
+    width:35%;
+    height:20%;   
+}
+#c{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* About section*/
+.about {
+    margin: 100px 0px;
+}
+.about .first-col .content-wrapper {
+    border-top:  2px solid black;
+    width: 200px;
+}
+
+.about .first-col p{
+    color:#506269;
+    font-weight:600px;
+    line-height:48px;
+    margin-bottom:0px;
+    margin-top:10px;
+    font-size:80px;
+}
+
+.about .second-col .content-wrapper{
+    width:80%;
+}
+
+/*Recent projects*/
+.recent-projects{
+    background:#efddd4;
+    min-height:600px;
+}
+.recent-projects .project-content
+{
+    position: relative;
+    top:100px;
+}
+.recent-projects hr{
+    width:220px;
+    border: 1px solid #a5410f;
+    background: #a5410f;
+    margin-bottom: -5px;
+}
+.recent-projects .heading{
+    font-size: 70px;
+    font-weight:bold;
+    line-height:50px;
+    color:#a5410f;
+    margin-bottom:50px;
+}
+.recent-projects .heading span:nth-child(1){
+    font-size:30px;
+    position:relative;
+    left:5px;
+}
+.recent-projects .projects-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    column-gap:20px;
+}
+.recent-projects .project-cards .card{
+    background: rgba(253,253,253,0.14);
+}
+.recent-projects .project-cards .card img{
+    transform:0.5s;
+}
+.recent-projects .project-cards .card:hover{
+    animation:pulse;
+    animation-duration: 0.5s;
+}
+.recent-projects .project-cards .card h1{
+    font-size: 17px;
+    color:#a5410f;
+    font-weight:700;
+}
+.recent-projects .project-cards .card p{
+    font-size:14px;
+    margin-bottom:0px;
+    color:#a5410f;
+}
+
+/*our client section*/
+.our-client .our-client-content {
+    position: relative;
+    top: 100px;
+}
+.our-client hr{
+    width: 220px;
+    border: 1px solid rgb(34,34,34);
+    background-color:rgb(34,34,34);
+    margin-bottom: -5px;
+}
+.our-client .heading{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #d5963d;
+    margin-bottom: 70px;
+}
+.our-client .heading span:nth-child(1){
+    font-size:30px;
+    position:relative;
+    color:rgb(34,34,34);
+    left:5px;
+}
+.our-client .first-row{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+/* why choose us*/
+.why-choose-us{
+    margin-top: 400px;
+
+}
+.why-choose-us .land{
+    background-color: #d5963d;
+    height: 301px;
+}
+.why-choose-us .content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:300px;
+}
+
+.why-choose-us .content span:nth-child(1){
+    margin-top: -50px;
+    position:relative;
+    left:50px;
+
+}
+.why-choose-us .content span:nth-child(1) img{
+    width: 500px;
+}
+.why-choose-us .content span:nth-child(2){
+    width:450px;
+    background-color: #a5410f;
+    height:440px;
+    position:relative;
+    right:70px;
+    padding:50px;
+    color:white;
+    top: -100px;
+}
+/*advantages section*/
+.card, .card-header, .card-body{
+    background-color: transparent;
+    border:none; 
+}
+.our-advantages{
+    background-color: #131e07;
+    padding:50px 0px;
+}
+.our-advantages .heading h1{
+    font-size:50px !important;
+    line-height:47px;
+    color:white;
+    font-weight:bold;
+    margin-bottom:60px;
+
+}
+.our-advantages .heading h1 span:nth-child(1){
+    font-size:32px;
+    font-weight:400;
+
+}
+.our-advantages .card-header h1{
+    font-size:20px;
+    color:#d5963d;
+    margin: 0px;
+    padding:0px;
+    margin-bottom: -10px;
+}
+.our-advantages .card-body p{
+    font-size:18px;
+    color:white;
+}
+/* contactsection*/
+.contact{
+    background-color:#a5410f;
+    padding:100px 0px;
+}
+.contact .content h1{
+    color: white;
+    font-weight:bold;
+
+}
+.contact .content p{
+    color:white;
+}
+.contact li.list-group-item{
+    background-color: transparent;
+    border:none;
+    font-size:19px;
+    padding-left:0px;
+    color:white;
+    padding:8px 0px;
+}
+.contact li.list-group-item ion-icon{
+    color:#d5963d;
+    font-size:23px;
+
+}
+.contact li.list-group-item span{
+    display:flex;
+    align-items:center;
+    column-gap: 10px;
+}
+/*Locationsection*/
+.Location{
+    color:white;
+    font-weight:bold;
+    background-color: #131e07;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+}
+.Location .map{
+    margin-top:20px;
+    
+    
+}
+.Location h1{
+    
+    font-weight:bold;
+}
+
+/*Hero section*/
+
+/* 991px->maxwidth
+768px->min width */
+
+@media (max-width: 991px) and (min-width: 768px){
+    /*Hero section*/
+    .hero-section h1{
+        font-size:40px;
+    }
+    .hero-section p{
+        font-size:18px;
+    }
+    .hero-section img{
+        width:350px;
+    }
+
+    /*recent projects*/
+    .recent-projects hr {
+        width:180px;
+    }
+    .recent-projects .heading{
+        line-height:47px;
+        font-size:55px;
+    }
+    .recent-projects .heading span:nth-child(1){
+        font-size:25px;
+    }
+
+    /*our client section*/
+    .our-client hr{
+        width:138px;
+    }
+    .our-client .heading{
+        font-size:55px;
+        line-height:47px;
+    }
+    .our-client .heading span:nth-child(1){
+        font-size:25px;
+    }
+    .first-row img{
+        width:140px;
+    }
+    /*why choose us*/
+    .why-choose-us .content span:nth-child(1) img{
+            width:400px;
+    }
+    .why-choose-us .content span:nth-child(2){
+        height:401px;
+        right:0px;
+    }
+    .why-choose-us .content span:nth-child(2) h1{
+        font-size:25px;
+    }
+    .why-choose-us .content span:nth-child(2) p{
+        font-size:15px;
+    }
+
+    /* our advantage sction*/
+    .our-advantages .heading h1{
+        font-size: 40px !important;
+    }
+    .our-advantages .heading h1 span:nth-child(1){
+        font-size:28px;
+    }
+    .our-advantages .card-header h1{
+        font-size: 20px;
+    }
+    .our-advantages .card-header p{
+        font-size: 16px;
+    }
+
+    /*contact us section*/
+    .contact{
+        padding:70px 0px;
+    }
+    .contact.content h1{
+        font-size:32px;
+    }
+    .contact .content p{
+        font-size:15px;
+    }
+    .contact li.list-group-item {
+        font-size:16px;
+    }
+}
+
+@media (max-width:767px) and (min-width: 350px){
+    /*Hero section*/
+    .hero-section{
+        margin-top:76px;
+        text-align: center;
+    }
+    .hero-section h1{
+        font-size:37px;
+    }
+    .hero-section p{
+        font-size:20px;
+    }
+    .hero-section button{
+        font-size:19px;
+    }
+    .hero-section img{
+        width:300px;
+        margin-top:100px;
+    }
+
+    /*about section*/
+    .about{
+        margin: 350px 0px 100px 0px;
+    }
+    .about .second-col .content-wrapper{
+        width:95%;
+        margin: 20px;
+    }
+
+    /*recent projects*/
+    .recent-projects hr {
+        width:176px;
+    }
+    .recent-projects .heading{
+        
+        font-size:55px;
+    }
+    .recent-projects .heading span:nth-child(1){
+        font-size:26px;
+    }
+    .recent-projects  .project-cards{
+        display:flex;
+        flex-direction:column;
+        row-gap:20px;
+    }
+    .recent-projects{
+        margin-bottom: 0px;
+        padding-bottom:200px;
+    }
+
+    /*our client section*/
+    .our-client .our-client-content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+    .our-client hr{
+        display:none;
+    }
+    .our-client .heading{
+        font-size:55px;
+        
+    }
+    .our-client .first-row{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .first-row img{
+        width:200px;
+        margin-bottom:35px;
+    }
+    /*why choose us*/
+    
+    .why-choose-us .content {
+        justify-content: center;
+    }
+    .why-choose-us .content span:nth-child(2) h1{
+        right : 0px;
+        height:401px;
+    }
+    
+    /* our advantage sction*/
+    .our-advantages .heading h1{
+        text-align:center;
+        font-size: 40px !important;
+    }
+    .our-advantages {
+        text-align:center;
+    }
+    .our-advantages .card-header h1{
+        font-size: 31px;
+    }
+    .our-advantages .card-header p{
+        font-size: 15px;
+    }
+
+    /*contact us section*/
+    .contact.content h1{
+        font-size:23px;
+    }
+    .contact .content p{
+        font-size:17px;
+    }
+
+}
+/*othr-files*/
+
+.about-us #c{
+    color:#848484;
+    font-weight: 800;
+    font-size:85px;
+    margin-left:50px;
+}
+.about-us .second-col .content-wrapper p{
+    width:80%;
+    font-size: 55px;
+
+}
+.about-us #cont{
+    margin-left:90px;
+    font-size:90px;
+}
+.about-us:hover #c{
+    animation:backwards;
+    animation-duration: 0.5s;
+}
+
+.why-chooseus{
+    margin-top: 90px;
+    margin-bottom:90px;
+
+}
+.why-chooseus .land{
+    background-color: #d5963d;
+    height: 301px;
+}
+.why-chooseus .content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:300px;
+}
+
+.why-chooseus .content span:nth-child(1){
+    margin-top: -50px;
+    position:relative;
+    left:50px;
+
+}
+.why-chooseus .content span:nth-child(1) img{
+    width: 500px;
+}
+.why-chooseus .content span:nth-child(2){
+    width:450px;
+    background-color: #a5410f;
+    height:440px;
+    position:relative;
+    right:70px;
+    padding:50px;
+    color:white;
+    top: -100px;
+}
